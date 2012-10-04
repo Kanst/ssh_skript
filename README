@@ -1,0 +1,5 @@
+Устанавливаем xclip (sudo apt-get install xclip) и копируем сгенерированный ключ с помощью "xclip -sel clip < ~/.ssh/id_rsa.pub"(ключ появется в буфере).
+
+На сайт заливаем ключ из буфера и проверяем:
+	ssh -T git@github.com
+При возникновении ошибки идти сюда https://help.github.com/articles/error-permission-denied-publickey
